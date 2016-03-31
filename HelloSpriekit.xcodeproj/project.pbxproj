@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CC812CA01CACC75C00CA0177 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC812C9F1CACC75C00CA0177 /* main.m */; };
+		CC812CA31CACC75C00CA0177 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC812CA21CACC75C00CA0177 /* AppDelegate.m */; };
+		CC812CA61CACC75C00CA0177 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CC812CA51CACC75C00CA0177 /* GameScene.m */; };
+		CC812CA81CACC75C00CA0177 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CC812CA71CACC75C00CA0177 /* GameScene.sks */; };
+		CC812CAB1CACC75C00CA0177 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC812CAA1CACC75C00CA0177 /* GameViewController.m */; };
+		CC812CAE1CACC75C00CA0177 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC812CAC1CACC75C00CA0177 /* Main.storyboard */; };
+		CC812CB01CACC75C00CA0177 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC812CAF1CACC75C00CA0177 /* Assets.xcassets */; };
+		CC812CB31CACC75C00CA0177 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC812CB11CACC75C00CA0177 /* LaunchScreen.storyboard */; };
+		CC812CBE1CACC75C00CA0177 /* HelloSpriekitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC812CBD1CACC75C00CA0177 /* HelloSpriekitTests.m */; };
+		CC812CC91CACC75C00CA0177 /* HelloSpriekitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CC812CC81CACC75C00CA0177 /* HelloSpriekitUITests.m */; };
+		CC812CD81CAD228500CA0177 /* bg.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = CC812CD71CAD228500CA0177 /* bg.mp3 */; };
+		CC812CDB1CAD247700CA0177 /* GameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = CC812CDA1CAD247700CA0177 /* GameOverScene.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC812CBA1CACC75C00CA0177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC812C931CACC75C00CA0177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC812C9A1CACC75C00CA0177;
+			remoteInfo = HelloSpriekit;
+		};
+		CC812CC51CACC75C00CA0177 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC812C931CACC75C00CA0177 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC812C9A1CACC75C00CA0177;
+			remoteInfo = HelloSpriekit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CC812C9B1CACC75C00CA0177 /* HelloSpriekit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloSpriekit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC812C9F1CACC75C00CA0177 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CC812CA11CACC75C00CA0177 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CC812CA21CACC75C00CA0177 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CC812CA41CACC75C00CA0177 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		CC812CA51CACC75C00CA0177 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		CC812CA71CACC75C00CA0177 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		CC812CA91CACC75C00CA0177 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		CC812CAA1CACC75C00CA0177 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		CC812CAD1CACC75C00CA0177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC812CAF1CACC75C00CA0177 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC812CB21CACC75C00CA0177 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC812CB41CACC75C00CA0177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC812CB91CACC75C00CA0177 /* HelloSpriekitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloSpriekitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC812CBD1CACC75C00CA0177 /* HelloSpriekitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloSpriekitTests.m; sourceTree = "<group>"; };
+		CC812CBF1CACC75C00CA0177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC812CC41CACC75C00CA0177 /* HelloSpriekitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloSpriekitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC812CC81CACC75C00CA0177 /* HelloSpriekitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloSpriekitUITests.m; sourceTree = "<group>"; };
+		CC812CCA1CACC75C00CA0177 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC812CD71CAD228500CA0177 /* bg.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bg.mp3; sourceTree = "<group>"; };
+		CC812CD91CAD247700CA0177 /* GameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameOverScene.h; sourceTree = "<group>"; };
+		CC812CDA1CAD247700CA0177 /* GameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameOverScene.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC812C981CACC75C00CA0177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC812CB61CACC75C00CA0177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC812CC11CACC75C00CA0177 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CC812C921CACC75C00CA0177 = {
+			isa = PBXGroup;
+			children = (
+				CC812CD61CAD226900CA0177 /* resource */,
+				CC812C9D1CACC75C00CA0177 /* HelloSpriekit */,
+				CC812CBC1CACC75C00CA0177 /* HelloSpriekitTests */,
+				CC812CC71CACC75C00CA0177 /* HelloSpriekitUITests */,
+				CC812C9C1CACC75C00CA0177 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CC812C9C1CACC75C00CA0177 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC812C9B1CACC75C00CA0177 /* HelloSpriekit.app */,
+				CC812CB91CACC75C00CA0177 /* HelloSpriekitTests.xctest */,
+				CC812CC41CACC75C00CA0177 /* HelloSpriekitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC812C9D1CACC75C00CA0177 /* HelloSpriekit */ = {
+			isa = PBXGroup;
+			children = (
+				CC812CA41CACC75C00CA0177 /* GameScene.h */,
+				CC812CA51CACC75C00CA0177 /* GameScene.m */,
+				CC812CD91CAD247700CA0177 /* GameOverScene.h */,
+				CC812CDA1CAD247700CA0177 /* GameOverScene.m */,
+				CC812CA71CACC75C00CA0177 /* GameScene.sks */,
+				CC812CA91CACC75C00CA0177 /* GameViewController.h */,
+				CC812CAA1CACC75C00CA0177 /* GameViewController.m */,
+				CC812C9E1CACC75C00CA0177 /* Supporting Files */,
+			);
+			path = HelloSpriekit;
+			sourceTree = "<group>";
+		};
+		CC812C9E1CACC75C00CA0177 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC812CAC1CACC75C00CA0177 /* Main.storyboard */,
+				CC812CAF1CACC75C00CA0177 /* Assets.xcassets */,
+				CC812CB11CACC75C00CA0177 /* LaunchScreen.storyboard */,
+				CC812CB41CACC75C00CA0177 /* Info.plist */,
+				CC812CA11CACC75C00CA0177 /* AppDelegate.h */,
+				CC812CA21CACC75C00CA0177 /* AppDelegate.m */,
+				CC812C9F1CACC75C00CA0177 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CC812CBC1CACC75C00CA0177 /* HelloSpriekitTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC812CBD1CACC75C00CA0177 /* HelloSpriekitTests.m */,
+				CC812CBF1CACC75C00CA0177 /* Info.plist */,
+			);
+			path = HelloSpriekitTests;
+			sourceTree = "<group>";
+		};
+		CC812CC71CACC75C00CA0177 /* HelloSpriekitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC812CC81CACC75C00CA0177 /* HelloSpriekitUITests.m */,
+				CC812CCA1CACC75C00CA0177 /* Info.plist */,
+			);
+			path = HelloSpriekitUITests;
+			sourceTree = "<group>";
+		};
+		CC812CD61CAD226900CA0177 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				CC812CD71CAD228500CA0177 /* bg.mp3 */,
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC812C9A1CACC75C00CA0177 /* HelloSpriekit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC812CCD1CACC75C00CA0177 /* Build configuration list for PBXNativeTarget "HelloSpriekit" */;
+			buildPhases = (
+				CC812C971CACC75C00CA0177 /* Sources */,
+				CC812C981CACC75C00CA0177 /* Frameworks */,
+				CC812C991CACC75C00CA0177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloSpriekit;
+			productName = HelloSpriekit;
+			productReference = CC812C9B1CACC75C00CA0177 /* HelloSpriekit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC812CB81CACC75C00CA0177 /* HelloSpriekitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC812CD01CACC75C00CA0177 /* Build configuration list for PBXNativeTarget "HelloSpriekitTests" */;
+			buildPhases = (
+				CC812CB51CACC75C00CA0177 /* Sources */,
+				CC812CB61CACC75C00CA0177 /* Frameworks */,
+				CC812CB71CACC75C00CA0177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC812CBB1CACC75C00CA0177 /* PBXTargetDependency */,
+			);
+			name = HelloSpriekitTests;
+			productName = HelloSpriekitTests;
+			productReference = CC812CB91CACC75C00CA0177 /* HelloSpriekitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC812CC31CACC75C00CA0177 /* HelloSpriekitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC812CD31CACC75C00CA0177 /* Build configuration list for PBXNativeTarget "HelloSpriekitUITests" */;
+			buildPhases = (
+				CC812CC01CACC75C00CA0177 /* Sources */,
+				CC812CC11CACC75C00CA0177 /* Frameworks */,
+				CC812CC21CACC75C00CA0177 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC812CC61CACC75C00CA0177 /* PBXTargetDependency */,
+			);
+			name = HelloSpriekitUITests;
+			productName = HelloSpriekitUITests;
+			productReference = CC812CC41CACC75C00CA0177 /* HelloSpriekitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC812C931CACC75C00CA0177 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "武淅 段";
+				TargetAttributes = {
+					CC812C9A1CACC75C00CA0177 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CC812CB81CACC75C00CA0177 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CC812C9A1CACC75C00CA0177;
+					};
+					CC812CC31CACC75C00CA0177 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CC812C9A1CACC75C00CA0177;
+					};
+				};
+			};
+			buildConfigurationList = CC812C961CACC75C00CA0177 /* Build configuration list for PBXProject "HelloSpriekit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC812C921CACC75C00CA0177;
+			productRefGroup = CC812C9C1CACC75C00CA0177 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC812C9A1CACC75C00CA0177 /* HelloSpriekit */,
+				CC812CB81CACC75C00CA0177 /* HelloSpriekitTests */,
+				CC812CC31CACC75C00CA0177 /* HelloSpriekitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC812C991CACC75C00CA0177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC812CA81CACC75C00CA0177 /* GameScene.sks in Resources */,
+				CC812CD81CAD228500CA0177 /* bg.mp3 in Resources */,
+				CC812CB31CACC75C00CA0177 /* LaunchScreen.storyboard in Resources */,
+				CC812CB01CACC75C00CA0177 /* Assets.xcassets in Resources */,
+				CC812CAE1CACC75C00CA0177 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC812CB71CACC75C00CA0177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC812CC21CACC75C00CA0177 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC812C971CACC75C00CA0177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC812CDB1CAD247700CA0177 /* GameOverScene.m in Sources */,
+				CC812CAB1CACC75C00CA0177 /* GameViewController.m in Sources */,
+				CC812CA31CACC75C00CA0177 /* AppDelegate.m in Sources */,
+				CC812CA61CACC75C00CA0177 /* GameScene.m in Sources */,
+				CC812CA01CACC75C00CA0177 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC812CB51CACC75C00CA0177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC812CBE1CACC75C00CA0177 /* HelloSpriekitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC812CC01CACC75C00CA0177 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC812CC91CACC75C00CA0177 /* HelloSpriekitUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC812CBB1CACC75C00CA0177 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC812C9A1CACC75C00CA0177 /* HelloSpriekit */;
+			targetProxy = CC812CBA1CACC75C00CA0177 /* PBXContainerItemProxy */;
+		};
+		CC812CC61CACC75C00CA0177 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC812C9A1CACC75C00CA0177 /* HelloSpriekit */;
+			targetProxy = CC812CC51CACC75C00CA0177 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC812CAC1CACC75C00CA0177 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC812CAD1CACC75C00CA0177 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC812CB11CACC75C00CA0177 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC812CB21CACC75C00CA0177 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC812CCB1CACC75C00CA0177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CC812CCC1CACC75C00CA0177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC812CCE1CACC75C00CA0177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloSpriekit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duan.HelloSpriekit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CC812CCF1CACC75C00CA0177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HelloSpriekit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duan.HelloSpriekit;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CC812CD11CACC75C00CA0177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = HelloSpriekitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duan.HelloSpriekitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloSpriekit.app/HelloSpriekit";
+			};
+			name = Debug;
+		};
+		CC812CD21CACC75C00CA0177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HelloSpriekitTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duan.HelloSpriekitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloSpriekit.app/HelloSpriekit";
+			};
+			name = Release;
+		};
+		CC812CD41CACC75C00CA0177 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = HelloSpriekitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duan.HelloSpriekitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HelloSpriekit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CC812CD51CACC75C00CA0177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = HelloSpriekitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.duan.HelloSpriekitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = HelloSpriekit;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC812C961CACC75C00CA0177 /* Build configuration list for PBXProject "HelloSpriekit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC812CCB1CACC75C00CA0177 /* Debug */,
+				CC812CCC1CACC75C00CA0177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC812CCD1CACC75C00CA0177 /* Build configuration list for PBXNativeTarget "HelloSpriekit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC812CCE1CACC75C00CA0177 /* Debug */,
+				CC812CCF1CACC75C00CA0177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC812CD01CACC75C00CA0177 /* Build configuration list for PBXNativeTarget "HelloSpriekitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC812CD11CACC75C00CA0177 /* Debug */,
+				CC812CD21CACC75C00CA0177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CC812CD31CACC75C00CA0177 /* Build configuration list for PBXNativeTarget "HelloSpriekitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC812CD41CACC75C00CA0177 /* Debug */,
+				CC812CD51CACC75C00CA0177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC812C931CACC75C00CA0177 /* Project object */;
+}
